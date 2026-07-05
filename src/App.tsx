@@ -7,7 +7,7 @@ function App() {
 
   return (
     <main className='app'>
-      <h1>Album Poster Engine</h1>
+      <h1>Album Poster Generator</h1>
 
       <Poster album={mockAlbum}/>
 
