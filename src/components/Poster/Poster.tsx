@@ -1,4 +1,6 @@
 import type { PosterProps } from "../../models/PosterProps"
+import AlbumCover from "./AlbumCover"
+import TrackList from "./TrackList"
 
 /**
  * Generador del Poster
@@ -7,9 +9,18 @@ import type { PosterProps } from "../../models/PosterProps"
  */
 function Poster(props: PosterProps) {
     const { album } = props
-    const { title, artist, tracks } = album
 
     return (
+        <section>
+            <AlbumCover cover={album.cover}/>
+
+            <div>
+                <TrackList tracks={album.tracks}/>
+            </div>
+        </section>
+    )
+
+    /* return (
         <section>
             
             <h2>{artist}</h2>
@@ -22,7 +33,7 @@ function Poster(props: PosterProps) {
             </ol>
 
         </section>
-    )
+    ) */
 }
 
 export default Poster

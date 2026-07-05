@@ -1,0 +1,7 @@
+Componente      Responsabilidad          Props
+==============================================
+Poster          Orquestar el poster      album
+AlbumCover      Mostrar portada          cover
+ColorPalette    Mostrar colores          colors
+TrackList       Mostrar canciones        tracks
+AlbumInfo       Mostrar datos álbum      artist, title, releaseDate
