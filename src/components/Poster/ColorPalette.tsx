@@ -7,8 +7,8 @@ function ColorPalette(props: ColorPaletteProps) {
         <div>
             <h1>Color Palette</h1>
             <ul>
-                {colors.map((color) => (
-                    <li key={color} style={{ backgroundColor: color }}/>
+                {colors.map((color, index) => (
+                    <li key={index} style={{ backgroundColor: color }}/>
                 ))}
             </ul>
         </div>

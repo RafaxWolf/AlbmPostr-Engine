@@ -1,9 +1,11 @@
+import type { ReactNode } from "react"
+
 // Album Schema
 export interface Album {
     title: string
     artist: string
     cover: string
-    genere: string
+    genre?: string
     tracks: string[]
     colors: string[]
     releaseDate: string
@@ -14,11 +16,15 @@ export interface PosterProps {
     album: Album
 }
 
+export interface PosterBodyProps {
+    children: ReactNode
+}
+
 export interface AlbumInfoProps {
     artist: string
     title: string
-    genere?: string
-    releaseDate?: string
+    genre?: string
+    releaseDate: string
 }
 
 export interface CoverProps {
