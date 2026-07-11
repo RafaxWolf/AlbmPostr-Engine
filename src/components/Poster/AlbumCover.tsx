@@ -1,6 +1,13 @@
-function AlbumCover() {
+import type { CoverProps } from "../../models/types"
+
+function AlbumCover(props: CoverProps) {
+    const { cover } = props
+
     return (
-        <div>AlbumCover Component</div>
+        <div>
+            <h1>Album Cover</h1>
+            <img src={cover} alt="Album Cover" />
+        </div>
     )
 }
 

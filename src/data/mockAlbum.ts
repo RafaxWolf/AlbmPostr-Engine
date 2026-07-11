@@ -1,7 +1,8 @@
 export const mockAlbum = {
     title: 'The Silicon Age',
     artist: 'Golden Sextion',
-    cover: '',
+    cover: 'https://metalcry.com/wp-content/uploads/2013/06/mcgoldensextion.jpg',
+    genere: 'Rock',
     tracks: [
         'Hi-Tech Love',
         'White Wall',
@@ -15,6 +16,10 @@ export const mockAlbum = {
         'My Pain',
         'From High'
     ],
+    colors: [
+        '#F5E069', 
+        '#D0C9B6', 
+        '#494B4A',
+    ],
     releaseDate: '2012',
-    colors: ['#111111', '#777777', '#dddddd'],
 }

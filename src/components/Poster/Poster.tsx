@@ -1,5 +1,7 @@
-import type { PosterProps } from "../../models/PosterProps"
+import type { PosterProps } from "../../models/types"
 import AlbumCover from "./AlbumCover"
+import AlbumInfo from "./AlbumInfo"
+import ColorPalette from "./ColorPalette"
 import TrackList from "./TrackList"
 
 /**
@@ -13,27 +15,15 @@ function Poster(props: PosterProps) {
     return (
         <section>
             <AlbumCover cover={album.cover}/>
-
+            <div>
+                <ColorPalette colors={album.colors}/>
+            </div>
+            <AlbumInfo artist={album.artist} title={album.title} genere={album.genere} releaseDate={album.releaseDate}/>
             <div>
                 <TrackList tracks={album.tracks}/>
             </div>
         </section>
     )
-
-    /* return (
-        <section>
-            
-            <h2>{artist}</h2>
-            <h3>{title}</h3>
-
-            <ol>
-                {tracks.map((song) => (
-                    <li key={song}>{song}</li>
-                ))}
-            </ol>
-
-        </section>
-    ) */
 }
 
 export default Poster
