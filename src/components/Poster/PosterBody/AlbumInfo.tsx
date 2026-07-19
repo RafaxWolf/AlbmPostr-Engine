@@ -4,7 +4,7 @@ function AlbumInfo(props: AlbumInfoProps) {
     const { artist, title, genre, releaseDate } = props
 
     return (
-        <div>
+        <div className="album-info">
             <h2>{artist}</h2>
             <h1>{title}</h1>
             {genre && <p>{genre}</p>}

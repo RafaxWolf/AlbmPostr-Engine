@@ -17,11 +17,11 @@ function Poster(props: PosterProps) {
     const { album } = props
 
     return (
-        <section>
+        <section className="poster">
             <AlbumCover cover={album.cover}/>
 
             <ColorPalette colors={album.colors}/>
-            
+
             <PosterBody>
                 <TrackList tracks={album.tracks}/>
 

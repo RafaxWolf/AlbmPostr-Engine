@@ -4,7 +4,7 @@ function AlbumCover(props: CoverProps) {
     const { cover } = props
 
     return (
-        <div>
+        <div className="album-cover">
             <h1>Album Cover</h1>
             <img src={cover} alt="Album Cover" />
         </div>

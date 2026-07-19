@@ -4,7 +4,7 @@ function PosterBody(props: PosterBodyProps) {
     const { children } = props
 
     return (
-        <div>
+        <div className="poster__body">
             {children}
         </div>
     )
