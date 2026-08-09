@@ -1,12 +1,17 @@
-// Components
-import AlbumCover from "./AlbumCover"
-import ColorPalette from "./ColorPalette"
+// ======= Components ====== \\
+// Header
+import AlbumCover from "./PosterHeader/AlbumCover"
+import ColorPalette from "./PosterHeader/ColorPalette"
+
+// Body
 import PosterBody from "./PosterBody/PosterBody"
 import AlbumInfo from "./PosterBody/AlbumInfo"
 import TrackList from "./PosterBody/TrackList"
 
 // Types / Props
 import type { PosterProps } from "../../models/types"
+
+import "../../styles/Poster.css"
 
 /**
  * Motor generador del Poster del Album

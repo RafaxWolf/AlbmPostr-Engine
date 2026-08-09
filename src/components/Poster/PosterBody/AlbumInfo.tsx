@@ -5,8 +5,8 @@ function AlbumInfo(props: AlbumInfoProps) {
 
     return (
         <div className="album-info">
-            <h2>{artist}</h2>
             <h1>{title}</h1>
+            <h2>{artist}</h2>
             {genre && <p>{genre}</p>}
             <h4>{releaseDate}</h4>
         </div>
