@@ -1,4 +1,4 @@
-import type { CoverProps } from "../../models/types"
+import type { CoverProps } from "../../../models/types"
 
 function AlbumCover(props: CoverProps) {
     const { cover } = props

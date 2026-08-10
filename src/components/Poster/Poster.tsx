@@ -11,7 +11,7 @@ import TrackList from "./PosterBody/TrackList"
 // Types / Props
 import type { PosterProps } from "../../models/types"
 
-import "../../styles/Poster.css"
+import "./Poster.css"
 
 /**
  * Motor generador del Poster del Album

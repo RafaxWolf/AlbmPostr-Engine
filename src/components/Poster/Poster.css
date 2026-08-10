@@ -1,0 +1,11 @@
+.poster {
+    border: 2px solid black;
+}
+
+.album-cover {
+    border: 1px solid black;
+
+    width: 100%;
+    height: auto;
+}
+

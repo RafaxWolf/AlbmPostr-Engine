@@ -1,4 +1,4 @@
-import type { ColorPaletteProps } from "../../models/types";
+import type { ColorPaletteProps } from "../../../models/types";
 
 function ColorPalette(props: ColorPaletteProps) {
     const { colors } = props
